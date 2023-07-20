@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply text-sm font-bold text-white transition duration-300;
+}
+
+.link:hover {
+    @apply text-secondary;
+}
